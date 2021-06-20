@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+#content {
+  background-image: url(../backgrounds/background-map.jpg);
+  height: 100vh;
+  width: 100vw;
+}
+
+#content #character-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+  padding: 40px;
+}
+
+#content #character-grid div {
+  background: white;
+  color: black;
+}
+
+#content #character-grid div #item1 {
+  background-image: url(../characters/dany.jpg);
+  height: 100px;
+  width: 100px;
+}
+
+#content #character-grid div #item2 {
+  background-image: url(../characters//tyrion.jpg);
+}
+
+#content #character-grid div #item3 {
+  background-image: url(../characters/Jorah.jpg);
+}
+
+#content #character-grid div #item4 {
+  background-image: url(../characters/Arya.jpg);
+}
+/*# sourceMappingURL=style.css.map */

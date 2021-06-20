@@ -1,0 +1,20 @@
+@mixin size($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin color($bgColor, $color) {
+  background-color: $bgColor;
+  color: $color;
+}
+
+@mixin spacing($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+@mixin flexCenter($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
